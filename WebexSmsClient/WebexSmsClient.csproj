@@ -3,7 +3,7 @@
 	<PropertyGroup>
 		<!-- Target framework -->
 		<TargetFramework>net8.0</TargetFramework>
-
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
 		<!-- Build and compilation settings -->
 		<Deterministic>true</Deterministic>
 		<ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
