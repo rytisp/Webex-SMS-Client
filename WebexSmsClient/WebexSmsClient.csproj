@@ -9,7 +9,7 @@
 		<ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
-
+		<SourceRoot>$(MSBuildProjectDirectory)\..\</SourceRoot>
 		<!-- NuGet package info -->
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<PackageId>WebexSmsClient</PackageId>

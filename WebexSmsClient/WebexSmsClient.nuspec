@@ -4,7 +4,7 @@
 
 		<!-- 🏷️ Package Identity -->
 		<id>WebexSmsClient</id>
-		<version>1.0.9</version>
+		<version>1.0.10</version>
 
 		<!-- 👤 Authors and Ownership -->
 		<authors>Rytis Petkevicius</authors>
@@ -29,6 +29,7 @@
 			using async HTTP requests.
 		</description>
 		<releaseNotes>
+			v1.0.10 - Fixed untracked sources.
 			v1.0.9 - Extended releaseNotes, Optimised summary and tags, Verified icon + readme setup, Explicit language + serviceable, XML docs included.
 			v1.0.8 - Enabled deterministic and CI build settings.
 			v1.0.7 - Added SourceLink and symbol generation support.
