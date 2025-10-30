@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+	<metadata>
+
+		<!-- 🏷️ Package Identity -->
+		<id>WebexSmsClient</id>
+		<version>1.0.9</version>
+
+		<!-- 👤 Authors and Ownership -->
+		<authors>Rytis Petkevicius</authors>
+		<owners>Rytis Petkevicius</owners>
+		<copyright>© 2025 Rytis Petkevicius</copyright>
+
+		<!-- 🧾 License and Repository Info -->
+		<license type="expression">MIT</license>
+		<projectUrl>https://github.com/rytisp/Webex-SMS-Client</projectUrl>
+		<repository type="git" url="https://github.com/rytisp/Webex-SMS-Client" branch="main" commit="HEAD" />
+
+		<!-- ✅ Package Configuration -->
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<language>en-US</language>
+		<serviceable>false</serviceable>
+
+		<!-- 📝 Description and Documentation -->
+		<summary>A lightweight Webex Interact SMS API client for .NET 8 and later.</summary>
+		<description>
+			Lightweight C# client for sending SMS messages via the Webex Interact API.
+			This library allows easy integration of SMS alerts and notifications into your .NET applications
+			using async HTTP requests.
+		</description>
+		<releaseNotes>
+			v1.0.9 - Extended releaseNotes, Optimised summary and tags, Verified icon + readme setup, Explicit language + serviceable, XML docs included.
+			v1.0.8 - Enabled deterministic and CI build settings.
+			v1.0.7 - Added SourceLink and symbol generation support.
+			v1.0.6 - Improved NuGet metadata and added README rendering.
+			v1.0.5 - Initial stable release.
+		</releaseNotes>
+
+		<!-- 🌟 Visuals -->
+		<icon>icon.png</icon>
+		<readme>README.md</readme>
+
+		<!-- 🏷️ Keywords -->
+		<tags>webex interact sms api textlocal txtlocal text message client notification alert</tags>
+
+		<!-- ⚙️ Framework Target -->
+		<dependencies>
+			<group targetFramework="net8.0" />
+		</dependencies>
+
+	</metadata>
+
+	<!-- 📂 Files Included in Package -->
+	<files>
+		<!-- Library and symbols -->
+		<file src="bin\Release\net8.0\WebexSmsClient.dll" target="lib\net8.0" />
+		<file src="bin\Release\net8.0\WebexSmsClient.pdb" target="lib\net8.0" />
+
+		<!-- Documentation and visuals -->
+		<file src="README.md" target="" />
+		<file src="icon.png" target="" />
+
+		<!-- Optional XML docs for IntelliSense -->
+		<file src="bin\Release\net8.0\WebexSmsClient.xml" target="lib\net8.0" />
+	</files>
+</package>

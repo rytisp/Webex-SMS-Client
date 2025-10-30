@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<!-- Target framework -->
+		<TargetFramework>net8.0</TargetFramework>
+
+		<!-- Build and compilation settings -->
+		<Deterministic>true</Deterministic>
+		<ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+
+		<!-- NuGet package info -->
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<PackageId>WebexSmsClient</PackageId>
+		<Version>1.0.1</Version>
+		<Authors>Rytis Petkevicius</Authors>
+		<Company>Rytis Petkevicius</Company>
+		<Description>Lightweight C# client for sending SMS messages via the Webex Interact API.</Description>
+		<PackageTags>webex interact sms api client notification alert</PackageTags>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageProjectUrl>https://github.com/rytisp/Webex-SMS-Client</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/rytisp/Webex-SMS-Client</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageIcon>icon.png</PackageIcon>
+
+		<!-- Debugging and reproducibility -->
+		<IncludeSymbols>true</IncludeSymbols>
+		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<!-- Include the readme and icon in the NuGet package -->
+		<None Include="README.md" Pack="true" PackagePath="\" />
+		<None Include="icon.png" Pack="true" PackagePath="\" />
+
+		<!-- Enable GitHub Source Link -->
+		<PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0" PrivateAssets="All" />
+	</ItemGroup>
+
+</Project>
