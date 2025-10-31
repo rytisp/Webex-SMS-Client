@@ -102,4 +102,4 @@ Throws: Exception if the HTTP response status is not successful.
 
 ## 🪪 License
 
-Licensed under the AGPL-3.0 License.
+Licensed under the MIT License.
